@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
-0 [label="failures <= 0.5\nsamples = 100.0%\nvalue = [0.506, 0.494]\nclass = fail", fillcolor="#fefcfa"] ;
-1 [label="higher_no <= 0.5\nsamples = 84.4%\nvalue = [0.424, 0.576]\nclass = pass", fillcolor="#cbe5f8"] ;
+0 [label="failures <= 0.5\nsamples = 100.0%\nvalue = [0.504, 0.496]\nclass = fail", fillcolor="#fffdfc"] ;
+1 [label="higher_no <= 0.5\nsamples = 84.4%\nvalue = [0.427, 0.573]\nclass = pass", fillcolor="#cce6f8"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="samples = 78.8%\nvalue = [0.388, 0.612]\nclass = pass", fillcolor="#b7dbf6"] ;
+2 [label="samples = 79.0%\nvalue = [0.392, 0.608]\nclass = pass", fillcolor="#b9dcf6"] ;
 1 -> 2 ;
-3 [label="samples = 5.6%\nvalue = [0.929, 0.071]\nclass = fail", fillcolor="#e78b48"] ;
+3 [label="samples = 5.4%\nvalue = [0.926, 0.074]\nclass = fail", fillcolor="#e78b49"] ;
 1 -> 3 ;
-4 [label="Medu <= 1.5\nsamples = 15.6%\nvalue = [0.949, 0.051]\nclass = fail", fillcolor="#e68844"] ;
+4 [label="Fjob_teacher <= 0.5\nsamples = 15.6%\nvalue = [0.923, 0.077]\nclass = fail", fillcolor="#e78c49"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="samples = 6.6%\nvalue = [1.0, 0.0]\nclass = fail", fillcolor="#e58139"] ;
+5 [label="samples = 15.4%\nvalue = [0.935, 0.065]\nclass = fail", fillcolor="#e78a47"] ;
 4 -> 5 ;
-6 [label="samples = 9.0%\nvalue = [0.911, 0.089]\nclass = fail", fillcolor="#e88d4c"] ;
+6 [label="samples = 0.2%\nvalue = [0.0, 1.0]\nclass = pass", fillcolor="#399de5"] ;
 4 -> 6 ;
 }
